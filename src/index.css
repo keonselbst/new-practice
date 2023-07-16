@@ -91,3 +91,7 @@ h1 {
     filter: grayscale(1);
     transition: 1s;
   }
+
+  .grayscale:hover {
+    filter: grayscale(0)
+  }

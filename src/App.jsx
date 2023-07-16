@@ -48,9 +48,8 @@ function App() {
         onDrop={handleDrop}
         onDragEnter={handleDragEmpty}
         onDragOver={handleDragEmpty}
+        class="grayscale"
         />
-        <button onClick=""
-        class="btnChange">Изменить</button>
      </div>
   )
 };
