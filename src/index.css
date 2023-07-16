@@ -40,6 +40,8 @@ h1 {
     background-color: #1a1a1a;
     cursor: pointer;
     float: left;
+    position: relative;
+    left: 231px;
   }
 
   .customFile:hover {
@@ -57,41 +59,16 @@ h1 {
     top: 40px;
     width: 500px;
     border-radius: 10px;
-    padding: 0.07rem;
     height: 300px;
+
     box-shadow: 1px 1px 1px rgba(0,0,0, .2);
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     border-color: #686565;
-  }
 
-  .btnChange {
-    color: #ffffff;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1.4em;
-    font-family: 'Montserrat';
-    background-color: #1a1a1a;
-    cursor: pointer;
-    position: fixed;
-    top: 157px;
-    left: 890px;
-  }
-
-  .btnChange:hover {
-    border-color: #646cff;
-  }
-  
-  .btnChange:active {
-    cursor: pointer;
-  box-shadow: inset 1px 50px 1px #111111;
-  }
-
-  .grayscale {  
-    filter: grayscale(1);
+    filter: grayscale(0);
     transition: 1s;
   }
 
-  .grayscale:hover {
-    filter: grayscale(0)
+  .card:hover {
+    filter: grayscale(1)
   }

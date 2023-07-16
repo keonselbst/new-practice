@@ -48,7 +48,6 @@ function App() {
         onDrop={handleDrop}
         onDragEnter={handleDragEmpty}
         onDragOver={handleDragEmpty}
-        class="grayscale"
         />
      </div>
   )
